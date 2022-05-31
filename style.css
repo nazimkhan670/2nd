@@ -1,0 +1,133 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+nav {
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+}
+.navtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.searchinput {
+    border: none;
+    background-color: transparent;
+}
+.searchinput::placeholder {
+    color: lightgray;
+}
+.limitedoffer {
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+.navbottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuitem {
+    margin-right: 50px;
+    color: lightgray;
+    font-weight: 400;
+    cursor: pointer;
+}
+.slider {
+    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    clip-path: po---lygon(0 0, 100% 0%, 100% 100%, 0 85%);
+}
+.sliderwrapper {
+    display: flex;
+    width: 500vw;
+}
+.slideritem {
+    width: 500%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sliderBg {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    background-color: ellow;
+    position: absolute;
+}
+.sliderimage {
+    z-index: 1;
+}
+.sliderTitle {
+    color: white;
+    top: 40%;
+    right: 15%;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+.sliderprice {
+    color: white;
+    top: 80%;
+    right: 15%;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+.BuyButton {
+    color: white;
+    top: 80%;
+    right: 15%;
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+.BuyButton:hover {
+    background-color: black;
+    color: white;
+}
+.slideritem:nth-child(1) .sliderBg {
+    background-color: tomato;
+}
+.slideritem:nth-child(2) .sliderBg {
+    background-color: rosybrown;
+}
+.slideritem:nth-child(3) .sliderBg {
+    background-color: salmon;
+}
+.slideritem:nth-child(4) .sliderBg {
+    background-color: darkgreen;
+}
+.slideritem:nth-child(5) .sliderBg {
+    background-color: yellowgreen;
+}
+
+.slideritem:nth-child(1) .sliderprice {
+    color: tomato;
+}
+.slideritem:nth-child(2) .sliderprice {
+    color: rosybrown;
+}
+.slideritem:nth-child(3) .sliderprice {
+    color: salmon;
+}
+.slideritem:nth-child(4) .sliderprice {
+    color: darkgreen;
+}
+.slideritem:nth-child(5) .sliderprice {
+    color: yellowgreen;
+}
